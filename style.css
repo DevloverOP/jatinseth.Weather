@@ -102,7 +102,7 @@ top: 5px;
 right:3px;
 width: 5px;
 padding: 12px;
-background-image:url('/HTML5_CSS3/ALL-MEDIA/del.png');
+background-image:url('./weather/icons/del.png');
 background-position:center;
 background-size: cover;
 background-repeat: no-repeat;
