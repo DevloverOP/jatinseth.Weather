@@ -1,0 +1,66 @@
+[
+{
+ "id":"1",
+ "location":{"city":"Delhi",
+             "towns":[{"name":"Rajender nagar",
+                     "whether":{
+                                "celcius":"35 C / 19C",
+                                "Fehranite":"250F / 150F",
+                                "humidity":"48%",
+                                "wind":"15 kmph",
+                                "Description":"Sunny"
+                                }},
+                      {"name":"Keshav Puram",
+                       "whether":{
+                                 "celcius":"33 C / 17C",
+                                 "Fehranite":"250F / 150F",
+                                 "humidity":"45%",
+                                 "wind":"12 kmph",
+                                 "Description":"Cloudy"
+                                }}
+                  ]
+},
+  "icon": "NULL"
+},
+
+{
+    "id":"2",
+    "location":{"city":"Punjab",
+               "towns":[{"name":"Amritsar",
+                        "whether":{
+                                  "celcius":"35 C / 19C",
+                                  "Fehranite":"250F / 150F",
+                                  "humidity":"48%",
+                                  "wind":"15 kmph",
+                                  "Description":"Rainy"
+                                  }},
+                        {"name":"Jalandhar",
+                          "whether":{
+                                    "celcius":"30 C / 15C",
+                                    "Fehranite":"250F / 150F",
+                                    "humidity":"45%",
+                                    "wind":"12 kmph",
+                                    "Description":"Partly cloud"
+                                  }}
+                    ]
+   },
+   "icon": "NULL"
+  },
+ {
+    "id":"3",
+    "location":{"city":"Uttrakhand",
+                "towns":[
+                          {"name":"Gharwal",
+                            "whether":{
+                              "celcius":"19 C / 9C",
+                              "Fehranite":"70F / 50F",
+                              "humidity":"5%",
+                              "wind":"10 kmph",
+                              "Description":"Snow"
+                              }
+                            } 
+                   ]
+   }, 
+   "icon": "NULL"
+  }
+]
