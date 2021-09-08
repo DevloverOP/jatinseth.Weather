@@ -23,7 +23,7 @@ e.target.setAttribute('title','Change Location');
 document.querySelector('.exit').addEventListener("click", ui.closeForm);
 
 // selecting town
-document.getElementById("city").addEventListener('mouseup',(e)=>{
+document.getElementById("city").addEventListener('change',(e)=>{
  UI.setState((e.target.value),fetchedData);
 });
 
