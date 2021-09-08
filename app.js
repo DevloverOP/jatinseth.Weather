@@ -7,12 +7,10 @@ class UI {
   closeForm(e) {
     if (e.target.classList.contains("close")) {
       document.getElementById("select_loc").style.display = "none";
-      document.body.style.backgroundColor = "white";
     }
   }
 
   openForm(e) {
-    document.body.style.backgroundColor = "rgba(0,0,0,0.7)";
     document.getElementById("select_loc").style.display = "block";
   }
 
@@ -92,8 +90,7 @@ setWhetherDetails(whether,selectedcity,selectedtown){
     val[2].innerText=`Wind: ${whether.wind}`;
     document.getElementById('desc').innerHTML=`
        ${whether.Description}`;
-    document.getElementById("image").setAttribute(`style`,`background-image:url("./whether/icons/${whether.Description}.png")`);
-
+    document.getElementById("image").setAttribute(`style`,`background-image: url('./whether/icons/${whether.Description.toLowerCase()}.png')`);
 }
 
 }
