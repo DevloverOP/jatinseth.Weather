@@ -33,17 +33,15 @@ class UI {
   }
   //set state
   static setState(city, data) {
-    let towns = "";
-    data.forEach((twn) => {
-      if (twn.location.city === city) {
-        twn.location.towns.forEach((atown) => {
-          towns += `<option value="${atown.name}">
-               ${atown.name}
-               </option> `;
+       let gettowns =``;
+    data.forEach((areas) => {
+      if (areas.location.city === city) {
+        areas.location.towns.forEach((town) => {
+          gettowns += `<option value="${town.name}">${town.name}</option> `;
         });
       }
     });
-    document.getElementById("town").innerHTML = towns;
+    document.getElementById("town").innerHTML = gettowns;
   }
 //previous Whether Load
    previousWhether=()=>{
