@@ -92,7 +92,7 @@ setWhetherDetails(whether,selectedcity,selectedtown){
     val[2].innerText=`Wind: ${whether.wind}`;
     document.getElementById('desc').innerHTML=`
        ${whether.Description}`;
-    document.querySelector("#image").setAttribute(`style`,`background-image: url('./whether/icons/${whether.Description}.png')`);
+    document.getElementById("image").setAttribute(`style`,`background-image:url("./whether/icons/${whether.Description}.png")`);
 
 }
 
